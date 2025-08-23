@@ -1,0 +1,111 @@
+/*Início estilização padrão para todo o site*/
+*{
+  margin: 0%;
+  padding: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+--color1: #000000;
+--color2: #d0d0d0;
+--color3: #2809c1;
+--color4: #940909;
+--color5: #525252;
+--color6: #ffffff;  
+}
+
+/*Fim estilização padrão para todo o site*/
+
+
+/*Início estilização index.html*/
+body {
+  background-color: var(--color6);
+}
+
+.menu {
+display: flex;
+justify-content: center;
+padding: 20px;
+background-color: var(--color2);
+/* background-image: url(/img/fundo/imagem-fundo-preto-e-branco.png); */
+
+}
+
+.menu-logo {
+  width: 300px;
+}
+
+.menu-navegacao {
+  padding: 100px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+
+h1 {
+  color: var(--color3);
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.cardapio {
+  display: flex;
+  margin: 30px;
+  justify-content: space-around; /* Alinha horizontalmente */
+  align-items: center; /* Alinha verticalmente */
+  flex-wrap: wrap;
+}
+
+.cardapio-itens {
+  flex-direction: column;
+}
+
+button {
+  background-color: var(--color4);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+
+footer {
+  background-color: var(--color2);
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+}
+
+
+
+/*Fim estilização index.html*/
+
+
+
+/*Início estilização ecomendas.html*/
+
+/*Fim estilização encomendas.html*/
+
+
+
+
+/*Início estilização nossa-historia.html*/
+
+/*Fim estilização nossa-historia.html*/
+
+
+
+/*Início estilização trabalhe-conosco.html*/
+
+/*Fim estilização trabalhe-conosco.html*/

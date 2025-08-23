@@ -1,0 +1,144 @@
+/*Início estilização padrão para todo o site*/
+*{
+  margin: 0%;
+  padding: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+--color1: #000000;
+--color2: #d0d0d0;
+--color3: #2809c1;
+--color4: #940909;
+--color5: #525252;
+--color6: #ffffff;  
+}
+
+/*Fim estilização padrão para todo o site*/
+
+
+/*Início estilização index.html*/
+body {
+  background-color: var(--color6);
+}
+
+.menu {
+display: flex;
+justify-content: center;
+padding: 20px;
+background-color: var(--color2);
+/* background-image: url(/img/fundo/imagem-fundo-preto-e-branco.png); */
+
+}
+
+.menu-logo {
+  width: 300px;
+
+}
+
+.menu-navegacao {
+  padding: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  align-items: center;
+}
+
+a:hover{
+  color: white;
+}
+
+
+h1 {
+  color: var(--color3);
+  font-size: 50px;
+  margin: 100px 50px;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.cardapio {
+  display: flex;
+  margin: 30px;
+  justify-content: space-around; /* Alinha horizontalmente */
+  align-items: center; /* Alinha verticalmente */
+  flex-wrap: wrap;
+ }
+
+.cardapio-itens {
+  flex-direction: column;
+}
+
+button {
+  background-color: var(--color4);
+  color: var(--color6);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: var(--color2);
+  margin: 10px;
+  font-size: 18px;
+  margin-top: 100px;
+  color: var(--color1);
+  text-align: center;
+  padding: 50px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/*Fim estilização index.html*/
+
+
+/*Início estilização cardápio.html*/
+
+
+  table {
+    width: 50%;
+    border-collapse: collapse; /*border-collapse serve para determinar se as bordas de uma tabela e suas células devem ser unidas ou separadas */
+    font-size: 2rem;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: 1px solid var(--color1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 25%;
+
+  }
+  th, td {
+    border: 1px solid var(--color1);
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: var(--color2);
+  }
+
+
+
+
+/*Fim estilização cardápio.html*/
+
+
+
+
+/*Início estilização ecomendas.html*/
+
+/*Fim estilização encomendas.html*/
+
+
+
+
+/*Início estilização nossa-historia.html*/
+
+/*Fim estilização nossa-historia.html*/
+
+
+
+/*Início estilização trabalhe-conosco.html*/
+
+/*Fim estilização trabalhe-conosco.html*/
