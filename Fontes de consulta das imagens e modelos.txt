@@ -1,0 +1,47 @@
+Fontes de consulta das imagens e modelos:
+
+- Referência - 
+Site: https://nicepage.com/pt/ht/3400956/cardapio-de-padaria-modelo-html
+
+- Imagem de fundo - 
+https://unsplash.com/pt-br/fotografias/biscoitos-pao-e-trigo-na-mesa-QnNqGoCnBg0
+
+
+ - Ícones - 
+https://www.pngegg.com/pt/png-hetbf/download
+
+- Logo Marca -
+Gerada pelo ChatGPT: https://chatgpt.com/c/68a9fcb6-d56c-832b-a562-e3ff07511909
+
+- Imagem de fundo em Preto e Branco - 
+Gerada pelo ChatGPT: https://chatgpt.com/c/68a9fcb6-d56c-832b-a562-e3ff07511909
+
+- Paleta de cores - 
+https://color.adobe.com/pt/explore
+
+/* Color Theme Swatches in Hex */
+.LATTICE80-1-hex { color: #023E73; }
+.LATTICE80-2-hex { color: #024059; }
+.LATTICE80-3-hex { color: #BF6415; }
+.LATTICE80-4-hex { color: #D9CCC1; }
+.LATTICE80-5-hex { color: #8C503A; }
+
+/* Color Theme Swatches in RGBA */
+.LATTICE80-1-rgba { color: rgba(2, 62, 114, 1); }
+.LATTICE80-2-rgba { color: rgba(1, 64, 89, 1); }
+.LATTICE80-3-rgba { color: rgba(191, 100, 21, 1); }
+.LATTICE80-4-rgba { color: rgba(216, 204, 192, 1); }
+.LATTICE80-5-rgba { color: rgba(140, 79, 57, 1); }
+
+/* Color Theme Swatches in HSLA */
+.LATTICE80-1-hsla { color: hsla(208, 96, 22, 1); }
+.LATTICE80-2-hsla { color: hsla(196, 96, 17, 1); }
+.LATTICE80-3-hsla { color: hsla(28, 80, 41, 1); }
+.LATTICE80-4-hsla { color: hsla(28, 23, 80, 1); }
+.LATTICE80-5-hsla { color: hsla(16, 41, 38, 1); }
+
+
+
+
+- Orientação sobre tabelas - 
+https://www.hashtagtreinamentos.com/tabela-em-html?conversion=base-ex-go-post-novos&gad_source=1&gad_campaignid=22810243158&gbraid=0AAAAADLlh88lGEZaNCZnYsu2dKODUpWgH&gclid=Cj0KCQjwzaXFBhDlARIsAFPv-u8pHuUjQ3IjzQxBaNBOYE3spBflYg9ITL8eOSNNXD4vEPWB_enMH_4aAnd2EALw_wcB

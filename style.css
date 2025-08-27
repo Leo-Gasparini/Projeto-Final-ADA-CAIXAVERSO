@@ -1,0 +1,283 @@
+/*Início estilização padrão para todo o site*/
+*{
+  margin: 0%;
+  padding: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+--color1: #000000;
+--color2: #023E73;
+--color3: #024059;
+--color4: #BF6415;
+--color5: #D9CCC1;
+--color6: #8C503A;
+--color6: #ffffff;  
+}
+
+/*Fim estilização padrão para todo o site*/
+
+
+/*Início estilização index.html*/
+body {
+  background-color: var(--color6);
+  height: 100vh;
+}
+
+.menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background-color: var(--color5);
+/* background-image: url(/img/fundo/imagem-fundo-preto-e-branco.png); */
+
+}
+
+.menu-logo {
+  width: 300px;
+  /* position: absolute;
+  left: 30px; */
+}
+
+/* .container-navegacao {
+  width: 200px;
+  display: flex;
+} */
+
+.menu-navegacao {
+  margin-bottom: 100px;
+  padding: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  align-items: center;
+}
+
+a:hover{
+  color: var(--color2);
+  text-decoration: underline;
+
+}
+
+
+h1 {
+  color: var(--color4);
+  margin: 100px 50px;
+  text-align: center;
+  font-size: 4rem;
+}
+
+
+.cardapio {
+  display: flex;
+  margin: 30px;
+  justify-content: center; /* Alinha horizontalmente */
+  align-items: center; /* Alinha verticalmente */
+  flex-wrap: wrap;
+    }
+
+    .cardapio-itens {
+      border: solid var(--color1);
+      height: 600px;
+      width: 330px;
+      margin: 20px;
+      border-radius: 20px;
+      padding: 10px;
+      text-align: center; /*  Para textos e elementos inline, use text-align: center; */
+      margin-top: 20px;
+    }
+
+      .cardapio-itens h3 {
+      margin: 30px;
+      font-size: 24px;
+      }
+
+      .cardapio-itens p {
+      margin: 30px;
+      font-size: 18px;
+      }
+
+      .cardapio-itens button {
+        margin: 30px;
+        font-size: 18px;
+
+      }
+
+button {
+  background-color: var(--color4);
+  color: var(--color6);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: var(--color5);
+  margin: 10px;
+  font-size: 18px;
+  margin-top: 100px;
+  color: var(--color1);
+  text-align: center;
+  padding: 50px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.redes-sociais {
+  margin: 20px;
+}
+
+
+ul, ol {
+  list-style-type: none;
+}
+/*Fim estilização index.html*/
+
+
+/*Início estilização cardápio.html*/
+
+
+
+  table {
+    width: 50%;
+    border-collapse: collapse; /*border-collapse serve para determinar se as bordas de uma tabela e suas células devem ser unidas ou separadas */
+    font-size: 2rem;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: 1px solid var(--color1);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 25%;
+
+  }
+  th, td {
+    border: 1px solid var(--color1);
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: var(--color5);
+  }
+
+/*Fim estilização cardápio.html*/
+
+
+/*Início estilização ecomendas.html*/
+
+.encomendas {
+text-align: center;
+}
+
+.encomendas-p {
+  font-size: 30px;
+  margin: 16px;
+}
+
+.fazer-encomendas {
+   margin: 30px;
+  font-size: 24px;
+}
+
+.form-encomendas {
+  margin: 30px;
+  font-size: 24px;
+}
+
+.entrega-encomendas {
+  margin: 30px;
+   font-size: 24px;
+
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--color5);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: var(--color3);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--color3);
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color:var(--color6)
+  font-style: italic;
+}
+
+select {
+   font-size: 24px;
+}
+
+textarea {
+  font-size: 20px;
+  width: 400px; /* Define a largura */
+  height: 200px; /* Define a altura */
+}
+
+
+
+.enviar-pedido-encomendas {
+  background-color: var(--color4);
+  color: var(--color6);
+  border: none;
+  padding: 10px 20px;
+  margin: 15;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/*Fim estilização encomendas.html*/
+
+
+/*Início estilização nossa-historia.html*/
+
+.nossa-historia {
+  text-align: center;
+}
+
+h2 {
+  margin: 20px;
+}
+
+
+.nossa-historia, h2, p {
+font-size: 24px;
+}
+
+/*Fim estilização nossa-historia.html*/
+
+
+
+/*Início estilização trabalhe-conosco.html*/
+
+.trabalhe-conosco{
+  text-align: center;
+}
+
+.trabalhe-conosco , h2, p{
+  font-size: 24px;
+}
+
+/*Fim estilização trabalhe-conosco.html*/
